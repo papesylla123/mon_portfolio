@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Personal Porfolio Website Design</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <a href="#about">about</a>
+                <a href="#service">services</a>
+                <a href="#portfolio">portfolio</a>
+                <a href="#contact">contact</a>
+            </nav>
+        </header>
+        <section class ="home" id="home">
+            <div class="home-content">
+            <h3>Hello, C'est Moi</h3>
+            <h1>Pape Sylla</h1>
+            <h3>Et je suis un <span>informaticien en developpement web et mobiles</span></h3>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+            <div class="home-img">
+                <img src="home.jpeg" alt="">
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="home.jpeg" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>developpeur web et mobiles</h3>
+                <p>Je suis etudiant en fin d'etudes specialise en developpement web et mobiles. J'ai une passion pour la programmation et le design. J'aime créer des sites web et des applications mobiles. J'ai une expérience de 3 ans dans le domaine du développement web et mobiles. 
+                J'ai travaillé sur de nombreux projets et j'ai acquis de nombreuses compétences.
+                 Je suis un développeur web et mobiles très passionné et je suis toujours prêt à apprendre de nouvelles technologies.</p>
+                 <a href="#" class="btn">Read more</a>
+            </div>
+        </section>
+        <section class="service" id="service">
+            <h2 class="heading">My <span>Services</span></h2>
+            <div class="box-container">
+                <div class="box">
+                    <i class='bx bx-mobile-alt'></i>
+                    <h3>Développement Web et Mobile</h3>
+                    <p>Je conçois et développe des applications mobiles performantes et intuitives en utilisant les technologies modernes :</p>
+                    <ul>
+                        <li>Développement natif avec Android (Java, Kotlin)</li>
+                        <li>Optimisation UX/UI avec Scène Builder et JavaFX</li>
+                    </ul>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+                
+                <div class="box">
+                    <i class='bx bx-network-chart'></i>
+                    <h3>Développement d'Applications Réseaux</h3>
+                    <p>Je développe des applications client-serveur et des solutions réseau sécurisées :</p>
+                    <ul>
+                        <li>Création d’applications réseau</li>
+                        <li>Gestion des connexions et protocoles réseau</li>
+                        <li>Optimisation des performances et gestion des erreurs</li>
+                    </ul>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+                
+                <div class="box">
+                    <i class='bx bx-candles' ></i>
+                    <h3>Gestion des Bases de Données</h3>
+                    <p>J’optimise la gestion des données en utilisant les meilleures pratiques en bases de données :</p>
+                    <ul>
+                        <li>Conception et gestion de bases relationnelles (MySQL, PostgreSQL, SQLite)</li>
+                        <li>Versionnement et migration avec Liquibase</li>
+                        <li>Optimisation des performances et requêtes SQL</li>
+                    </ul>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+                
+                <div class="box">
+                    <i class='bx bx-lock'></i>
+                    <h3>Sécurité des Applications</h3>
+                    <p>Je sécurise les applications web et mobiles grâce aux bonnes pratiques de cybersécurité :</p>
+                    <ul>
+                        <li>Authentification et gestion des accès avec JWT</li>
+                        <li>Protection contre les attaques : XSS, CSRF, Injection SQL</li>
+                        <li>Mise en place de tests de sécurité et monitoring</li>
+                    </ul>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+                
+                <div class="box">
+                    <i class='bx bx-file'></i>
+                    <h3>Génération et Automatisation de Documents</h3>
+                    <p>J’intègre des fonctionnalités avancées de gestion et génération de documents :</p>
+                    <ul>
+                        <li>Génération de PDF dynamiques avec Thymeleaf et Flying Saucer</li>
+                        <li>Automatisation des emails avec pièces jointes</li>
+                        <li>Affichage de code-barres et QR codes dans les documents</li>
+                    </ul>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+                <div class="box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Langages de Programmation</h3>
+                    <p>J'ai une solide expérience dans plusieurs langages de programmation utilisés pour le développement web, mobile et backend :</p>
+                    <ul>
+                        <li><i class='bx bxl-java'></i> Java</li>
+                        <li><i class='bx bxl-python'></i> Python</li>
+                        <li><i class='bx bxl-c-plus-plus'></i> C++</li>
+                        <li><i class='bx bx-c'></i> C, C#</li>
+                        <li><i class='bx bxl-swift'></i> Swift</li>
+                        <li><i class='bx bxl-javascript'></i> JavaScript</li>
+                        <li><i class='bx bxl-html5'></i> HTML, <i class='bx bxl-css3'></i> CSS</li>
+                    </ul>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            
+                <!-- Environnements de développement -->
+                <div class="box">
+                    <i class='bx bx-terminal'></i>
+                    <h3>Environnements de Développement</h3>
+                    <p>Je travaille avec divers IDE et frameworks pour optimiser mes projets :</p>
+                    <ul>
+                        <li><i class='bx bxl-visual-studio'></i> Visual Studio, VS Code</li>
+                        <li><i class='bx bx-leaf'></i> Spring Boot</li>
+                        <li><i class='bx bx-brain'></i> Intellij</li>
+                        <li><i class='bx bxl-apple'></i> Xcode</li>
+                        <li><i class='bx bxl-android'></i> Android Studio</li>
+                        <li><i class='bx bx-terminal'></i> Eclipse</li>
+                    </ul>
+                    <a href="#" class="btn">Read more</a>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Latest <span>Project</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="actif.jpeg" alt="">
+                    <div class="portfolio-content">
+                        <h3>Citoyen Actif </h3>
+                        <p>Application de report de bris dans une municipalité. Les citoyens reportent des bris avec photo et géolocalisation. 
+                            Les employés municipaux voient les bris géolocalisés et passent pour effectuer les réparations puis confirment 
+                            la réparation avec photos/ignorent les faux reports/duplications, le citoyen qui est à l’origine du report est alors
+                             notifié. Les employés municipaux et les citoyens doivent avoir la possibilité de voir tous les reports sur une carte,
+                              les citoyens doivent aussi pouvoir gérer leurs propres reports, les filtrer selon différentes catégories prédéfinies.
+                               Les utilisateurs de l’application ont chacun un profil qui est de type citoyen ou agent (municipal). 
+                               Les informations nom, prénom, adresses, courriel, numéro de téléphone des citoyens sont nécessaires à la création 
+                               de leur compte. Les agents municipaux se limitent aux nom, prénom, numéro agent et ville.</p>
+                               <a href="#"> <i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="resultat.jpg" alt="">
+                    <div class="portfolio-content">
+                        <h3>Microservices:Prescription de medicamments</h3>
+                        <p>Mon projet de synthèse consiste en le développement d’un microservice de gestion des prescriptions médicales 
+                            pour une application utilisée dans plusieurs hôpitaux au Sénégal. Il inclut la création d’une API REST avec 
+                            Spring Boot, la sécurisation des données via JWT, la génération de PDF automatisés avec Thymeleaf et Flying 
+                            Saucer, ainsi que la gestion d’une base de données PostgreSQL avec Liquibase. J’ai également implémenté 
+                            l’envoi par email des prescriptions et la possibilité de télécharger les PDFs. Ce projet m’a permis de renforcer
+                             mes compétences en développement backend, sécurité des applications et génération de documents automatisés, et j’ai obtenu une note A+.</p>
+                             <a href="#"> <i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="affiche.jpeg" alt="">
+                    <div class="portfolio-content">
+                        <h3>Affiche du projet</h3>
+                        <p>c'etait une affiche pour presenter mon projet de synthèse devant les professeurs et les etudiants </p>
+                        <a href="#"> <i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+           <form action="#">
+              <div class="input-box">
+                  <input type="text" placeholder="full name">
+                  <input type="email" placeholder="Email Addresse">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+              </form>
+        </section>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
